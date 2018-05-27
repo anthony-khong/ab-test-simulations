@@ -20,14 +20,16 @@ extra-source-files:
 description:         Please see the README on GitHub at <https://github.com/anthony-khong/ab-test-simulations#readme>
 
 dependencies:
-- base >= 4.7 && < 5
 - Chart
 - Chart-cairo
+- base >= 4.7 && < 5
 - hmatrix
+- mtl
 - random-fu
 - random-source
 - statistics
 - tasty
+- vector
 
 library:
   source-dirs: src
